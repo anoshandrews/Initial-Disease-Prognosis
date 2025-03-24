@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 import numpy as np
-from training import encoder
 
 
 model = joblib.load('disease_prediction.pkl')
